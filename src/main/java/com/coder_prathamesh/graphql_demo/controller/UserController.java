@@ -36,8 +36,8 @@ public class UserController {
 
     //get user by id api:
     @QueryMapping
-    public User getUserById(@Argument Long id) {
-        return userService.getUser(id);
+    public User getUserById(@Argument Long user_id) {
+        return userService.getUser(user_id);
     }
 
     /*//update user api:
